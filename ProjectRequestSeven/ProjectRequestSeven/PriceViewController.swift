@@ -8,7 +8,7 @@
 import UIKit
 
 class PriceViewController: UIViewController {
-
+    
     @IBOutlet var labelName: UILabel!
     @IBOutlet var imagePrice: UIImageView!
     @IBOutlet var labelPriceM: UILabel!

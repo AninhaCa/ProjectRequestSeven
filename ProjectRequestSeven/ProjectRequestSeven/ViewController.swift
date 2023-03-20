@@ -9,7 +9,7 @@ import UIKit
 import Alamofire
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet var tableView: UITableView!
     
     var arrayPizza: Pizza?
@@ -46,7 +46,7 @@ extension ViewController: UITableViewDataSource {
             
             return cell
         }
-         
+        
         return UITableViewCell()
     }
 }
