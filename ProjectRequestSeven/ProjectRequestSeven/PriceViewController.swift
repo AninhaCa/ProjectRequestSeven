@@ -32,7 +32,6 @@ class PriceViewController: UIViewController {
             rating.ratingPizza = self.pricePizza
             self.present(rating, animated: true)
         }
-        
     }
     
     @IBAction func back(_ sender: Any) {
