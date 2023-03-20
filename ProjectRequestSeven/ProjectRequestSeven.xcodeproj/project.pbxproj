@@ -11,6 +11,8 @@
 		771E3FB929C7D66E00130120 /* MyCustomXIBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E3FB729C7D66E00130120 /* MyCustomXIBCell.swift */; };
 		771E3FBA29C7D66E00130120 /* MyCustomXIBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771E3FB829C7D66E00130120 /* MyCustomXIBCell.xib */; };
 		771E3FBC29C7DA1B00130120 /* PriceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E3FBB29C7DA1B00130120 /* PriceViewController.swift */; };
+		771E3FBE29C7DC6900130120 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E3FBD29C7DC6900130120 /* RatingViewController.swift */; };
+		771E3FC029C7E01A00130120 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771E3FBF29C7E01A00130120 /* StartViewController.swift */; };
 		779D57A229C7D2930099E560 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D57A129C7D2930099E560 /* AppDelegate.swift */; };
 		779D57A429C7D2930099E560 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D57A329C7D2930099E560 /* SceneDelegate.swift */; };
 		779D57A629C7D2930099E560 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779D57A529C7D2930099E560 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 		771E3FB729C7D66E00130120 /* MyCustomXIBCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomXIBCell.swift; sourceTree = "<group>"; };
 		771E3FB829C7D66E00130120 /* MyCustomXIBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomXIBCell.xib; sourceTree = "<group>"; };
 		771E3FBB29C7DA1B00130120 /* PriceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewController.swift; sourceTree = "<group>"; };
+		771E3FBD29C7DC6900130120 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		771E3FBF29C7E01A00130120 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		779D579E29C7D2930099E560 /* ProjectRequestSeven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectRequestSeven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		779D57A129C7D2930099E560 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		779D57A329C7D2930099E560 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				771E3FB529C7D34F00130120 /* Pizza.swift */,
 				779D57A529C7D2930099E560 /* ViewController.swift */,
 				771E3FBB29C7DA1B00130120 /* PriceViewController.swift */,
+				771E3FBD29C7DC6900130120 /* RatingViewController.swift */,
+				771E3FBF29C7E01A00130120 /* StartViewController.swift */,
 				771E3FB729C7D66E00130120 /* MyCustomXIBCell.swift */,
 				771E3FB829C7D66E00130120 /* MyCustomXIBCell.xib */,
 				779D57A729C7D2930099E560 /* Main.storyboard */,
@@ -219,11 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				771E3FB929C7D66E00130120 /* MyCustomXIBCell.swift in Sources */,
+				771E3FC029C7E01A00130120 /* StartViewController.swift in Sources */,
 				771E3FB629C7D34F00130120 /* Pizza.swift in Sources */,
 				771E3FBC29C7DA1B00130120 /* PriceViewController.swift in Sources */,
 				779D57A629C7D2930099E560 /* ViewController.swift in Sources */,
 				779D57A229C7D2930099E560 /* AppDelegate.swift in Sources */,
 				779D57A429C7D2930099E560 /* SceneDelegate.swift in Sources */,
+				771E3FBE29C7DC6900130120 /* RatingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
